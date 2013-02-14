@@ -1,4 +1,9 @@
 --ignore-dir=.tox
 --type-set=rst=.rst
+--type-set=txt=.txt
 --type-set=styl=.styl
+--type-set=less=.less
 --type-set=coffee=.coffee
+--type-set=salt=.sls
+--type-set=alex=.x
+--type-set=happy=.y
