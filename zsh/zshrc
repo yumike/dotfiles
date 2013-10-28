@@ -37,7 +37,7 @@ export COPYFILE_DISABLE=true
 
 export NODE_PATH=/usr/local/lib/node
 
-export MACOSX_DEPLOYMENT_TARGET=10.8
+export MACOSX_DEPLOYMENT_TARGET="10.9"
 
 alias serve='python -mSimpleHTTPServer'
 alias feature='git flow feature'
