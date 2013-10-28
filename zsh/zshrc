@@ -34,7 +34,6 @@ export VIRTUALENVWRAPPER_LOG_DIR=$WORKON_HOME
 source "/usr/local/bin/virtualenvwrapper.sh"
 
 export COPYFILE_DISABLE=true
-export VIRTUALENV_USE_DISTRIBUTE=true
 
 export NODE_PATH=/usr/local/lib/node
 
