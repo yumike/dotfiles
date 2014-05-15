@@ -2,4 +2,4 @@
 # This hook is run after every virtualenv is activated.
 
 PS1="
-on %{${fg[white]}%}`basename \"$VIRTUAL_ENV\"` %{$reset_color%}${_OLD_VIRTUAL_PS1:1}"
+on %{${fg[blue]}%}`basename \"$VIRTUAL_ENV\"` %{$reset_color%}${_OLD_VIRTUAL_PS1:1}"
