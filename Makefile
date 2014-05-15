@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-install: install-zsh install-vim install-pip install-virtualenvwrapper install-rvm install-tmux
+install: install-zsh install-vim install-pip install-virtualenvwrapper install-tmux
 
 install-zsh:
 	[[ -d ~/.oh-my-zsh ]] || git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
@@ -18,9 +18,6 @@ install-pip:
 install-virtualenvwrapper:
 	mkdir -p ~/.virtualenvs
 	ln -fs `pwd`/virtualenvwrapper/* ~/.virtualenvs
-
-install-rvm:
-	[[ -d ~/.rvm ]] || bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
 
 install-ack:
 	ln -fs `pwd`/ack/ackrc ~/.ackrc
